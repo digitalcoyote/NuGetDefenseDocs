@@ -1,0 +1,57 @@
+﻿@page "/"
+<h1>NuGetDefense</h1>
+<p>
+    <a href="https://gitter.im/NuGetDefense/community?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/a9fd2b69af29c7dca761c7ccc6cbf5fa8b4e5d94/68747470733a2f2f6261646765732e6769747465722e696d2f4e75476574446566656e73652f636f6d6d756e6974792e737667" alt="Join the chat at https://gitter.im/NuGetDefense/community" data-canonical-src="https://badges.gitter.im/NuGetDefense/community.svg" style="max-width:100%;">
+    </a>
+    <a href="https://badge.fury.io/nu/NugetDefense" rel="nofollow">
+        <img src="https://camo.githubusercontent.com/febacda6a2a6204bf20fee379193c1bfa8ccd0e0/68747470733a2f2f62616467652e667572792e696f2f6e752f4e75676574446566656e73652e737667" alt="NuGet version" data-canonical-src="https://badge.fury.io/nu/NugetDefense.svg" style="max-width:100%;">
+    </a>
+</p>
+<p>An MSBuildTask that checks for known vulnerabilities. Inspired by <a href="https://github.com/OWASP/SafeNuGet">OWASP SafeNuGet</a>.</p>
+<h4>Rider</h4>
+<p>
+    <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0127af2888bb74cbf5a22e124e9345fb46a705ff/68747470733a2f2f72617763646e2e6769746861636b2e636f6d2f6469676974616c636f796f74652f4e75476574446566656e73652f633565313533613632376364653064313934646166383530306666623863616237303230653930332f4572726f724d657373616765732e706e67">
+        <img src="https://camo.githubusercontent.com/0127af2888bb74cbf5a22e124e9345fb46a705ff/68747470733a2f2f72617763646e2e6769746861636b2e636f6d2f6469676974616c636f796f74652f4e75476574446566656e73652f633565313533613632376364653064313934646166383530306666623863616237303230653930332f4572726f724d657373616765732e706e67" alt="Example Error Messages in Rider" data-canonical-src="https://rawcdn.githack.com/digitalcoyote/NuGetDefense/c5e153a627cde0d194daf8500ffb8cab7020e903/ErrorMessages.png" style="max-width:100%;">
+    </a>
+</p>
+<h4>Visual Studio</h4>
+<p>
+    <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/aed2e182f249e58041b2ad111ea21964b2fe2420/68747470733a2f2f72617763646e2e6769746861636b2e636f6d2f6469676974616c636f796f74652f4e75476574446566656e73652f313631353065393535653839653231643234633534626234613033383838653961376238393665352f56534572726f724d657373616765732e706e67">
+        <img src="https://camo.githubusercontent.com/aed2e182f249e58041b2ad111ea21964b2fe2420/68747470733a2f2f72617763646e2e6769746861636b2e636f6d2f6469676974616c636f796f74652f4e75476574446566656e73652f313631353065393535653839653231643234633534626234613033383838653961376238393665352f56534572726f724d657373616765732e706e67" alt="Example Error Messages in Visual Studio 2019" data-canonical-src="https://rawcdn.githack.com/digitalcoyote/NuGetDefense/16150e955e89e21d24c54bb4a03888e9a7b896e5/VSErrorMessages.png" style="max-width:100%;">
+    </a>
+</p>
+<h2>Why a new Project?</h2>
+<ol>
+    <li>SafeNuGet hasn't seen a new commit in years and isn't able to keep up with vulnerable packages.</li>
+    <li>SafeNuGet doesn't have a license (at all).</li>
+    <li>A pure MSBuild task <a href="https://natemcmaster.com/blog/2017/11/11/msbuild-task-with-dependencies/" rel="nofollow">should not use dependencies</a> and cannot get the desired results without them.</li>
+</ol>
+<h2>Features</h2>
+<ul>
+    <li>
+        Uses Multiple Sources to check for known vulnerabilities in third-party libraries (NuGet packages)
+        <ul>
+            <li>
+                <a href="https://ossindex.sonatype.org/" rel="nofollow">OSS Index</a>
+            </li>
+            <li><a href="https://nvd.nist.gov/" rel="nofollow">National Vulnerability Database</a> (Optionally Self-Updating)</li>
+        </ul>
+    </li>
+    <li>Simple installation/configuration: the <a href="https://www.nuget.org/packages/NuGetDefense/" rel="nofollow">NuGet Package</a> is all you need.</li>
+    <li>Allow breaking the build based on severity of vulnerability.</li>
+    <li>Ignore specific vulnerabilities/packages.</li>
+    <li>Blacklisting NuGet Packages</li>
+    <li>Whitelisting NuGet Packages</li>
+    <li>MIT Licensed</li>
+</ul>
+<h2>Planned Features</h2>
+<ul>
+    <li>Checking Dependencies based on the versions that were installed when the project was built.</li>
+</ul>
+<h2>Requirements</h2>
+<p>Currently NuGetDefense is built only in .Net Core 3.1 so you will need the runtime/SDK installed.</p>
+<h2>How does it work?</h2>
+<p>NuGetDefense is a bundled dotnet tool that runs using an <a href="https://docs.microsoft.com/en-us/visualstudio/msbuild/exec-task?view=vs-2019" rel="nofollow">MSBuild ExecTask</a> after your project finishes building.</p>
+<h2>Love it? Support it!</h2>
+<p>You can sponsor this project on <a href="https://github.com/sponsors/digitalcoyote">Github</a> and <a href="https://www.patreon.com/codingcoyote" rel="nofollow">Patreon</a>. The funds will be used to pay for software licenses and cloud/hardware costs that keep my projects running.</p>

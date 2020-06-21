@@ -1,0 +1,124 @@
+﻿@page "/configuration"
+@inject IJSRuntime JSRuntime;
+
+@code {
+
+  protected override async Task OnAfterRenderAsync(bool firstRender)
+  {
+    await JSRuntime.InvokeVoidAsync("Prism.highlightAll");
+  }
+}
+  
+
+<h1>Configuration</h1>
+
+<p>NuGetDefense was designed with the idea that configuration should be easy and no action should be required by default. When you initially build your project, a configuration file is created if one is not found.</p>
+
+<h3>Default NuGetDefense.json</h3>
+<pre>
+<code class="language-json">
+{
+  "WarnOnly": false,
+  "ErrorSettings": {
+    "ErrorSeverityThreshold": 5,
+    "CVSS3Threshold": -1,
+    "IgnoredPackages": [
+      {
+        "Id": "NugetDefense",
+        "Version": null,
+        "PackageUrl": "pkg:nuget/NugetDefense@@"
+      }
+    ],
+    "IgnoredCvEs": [],
+    "WhiteListedPackages": [],
+    "BlackListedPackages": []
+  },
+  "OssIndex": {
+    "Enabled": true,
+    "BreakIfCannotRun": false
+  },
+  "NVD": {
+    "SelfUpdate": false,
+    "TimeoutInSeconds": 15,
+    "Enabled": true,
+    "BreakIfCannotRun": false
+  }
+}
+</code>
+</pre>
+
+<h2>Options</h2>
+
+<h3>WarnOnly</h3>
+<p>When <code>true</code> creates <span class="oi oi-warning"></span>Warnings instead of <span class="oi oi-circle-x"></span>Errors in the IDE</p>
+<h3>ErrorSettings</h3>
+<ul>
+  <li><h4>ErrorSeverityThreshold: Minimum <a href="https://nvd.nist.gov/vuln-metrics/cvss" target="_blank">CVSS 3.0</a>-based error severity ,</h4>
+    <p>Accepts the following values:</p>
+    <ul>
+      <li>Any: No Filtering</li>
+      <li>None: 0+</li>
+      <li>Low: 0.1+</li>
+      <li>Medium: 4.0+</li>
+      <li>High: 7.0+</li>
+      <li>Critical: 9.0+</li>
+    </ul>
+    <p>Currently Any/None function very similarly, but None should not allow errors/warings for vulnerabilities without a CVSS3 score</p>
+    <p>Incompatible with CVSS3Threshold</p></li>  
+  <li>
+    <h4>CVSS3Threshold: Minimum <a href="https://nvd.nist.gov/vuln-metrics/cvss" target="_blank">CVSS 3.0</a> score required to cause an error. Values below this trigger warnings instead.</h4>
+    <p>Accepts values 0.0 through 10.0 (-1 can be used to simulate "Any")</p>
+    <p>Incompatible with ErrorSeverityThreshold</p>
+  </li>
+  <li>
+  <h4>IgnoredPackages</h4>
+    <p>A set of packages that will be ignored if any vulnerabilities are found.</p>
+    <p>This useful when an internal package matches vulnerabilities for a publicly available package. Or when the package is not actually used by the project.</p>
+  <p>If the version is included, only that version of the package is ignored. Otherwise, all versions are ignored.</p>
+  </li>
+  <li><h4>IgnoredCvEs</h4>
+    <p>A list of CVE's to ignore when scanning</p></li>
+  <li><h4>WhiteListedPackages</h4>
+    <p>This will be phased out once the industry settles on a new name for whitelists</p>
+    <p>Will cause errors for any package not in this list. If a version is provided, only that version will be permitted.</p></li>
+  <li><h4>BlackListedPackages</h4>
+    <p>This will be phased out once the industry settles on a new name for whitelists</p>
+    <p>Will cause errors for any package in this list. If a version is provided, only that version will be disallowed.</p>
+    <h5>CustomErrorMessage</h5>
+    <p>Error text to use when a package in the list is found.</p>
+    </li>
+</ul>
+
+<h3>OssIndex</h3>
+<p>Configures the OSSIndex Scanner</p>
+<ul>
+  <li><h4>Enabled</h4>
+    <p>If <code>True</code> sends the package list to <a href="https://ossindex.sonatype.org/" target="_blank">OSSIndex</a> and reports any vulnerabilities returned</p>
+  </li>
+  <li><h4>BreakIfCannotRun</h4>
+    <p>Emits an Error if an exception is encountered while trying to scan for vulnerabilities</p>
+  </li>
+  <li><h4>Authentication</h4>
+    <p>Coming Soon!</p>
+  </li>
+</ul>
+
+<h3>NVD</h3>
+<p>Configures the NVD Scanner which is able to scan for vulnerabilities while offline</p>
+<ul>
+  <li><h4>Enabled</h4>
+    <p>If <code>True</code> uses the embedded vulnerability data (created from the <a href="https://nvd.nist.gov/" target="_blank">National Vulnerability Database</a> and reports any vulnerabilities found</p>
+  </li>
+  <li><h4>BreakIfCannotRun</h4>
+    <p>Emits an Error if an exception is encountered while trying to scan for vulnerabilities</p>
+  </li>  
+  <li><h4>SelfUpdate</h4>
+    <p>Attempts to update the offline vulnerability source</p>
+  </li>
+  <li><h4>TimeoutInSeconds</h4>
+    <p>Timeout used to retrieve NVD Data Source (Default: 15 Seconds)</p>
+  </li>
+</ul>
+
+<h3>Scan Transitive Dependencies</h3>
+<p>Coming Soon!</p>
