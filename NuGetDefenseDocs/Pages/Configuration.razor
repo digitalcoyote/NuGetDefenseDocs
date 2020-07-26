@@ -30,8 +30,8 @@
       }
     ],
     "IgnoredCvEs": [],
-    "WhiteListedPackages": [],
-    "BlackListedPackages": []
+    "AllowedPackages": [],
+    "BlockedPackages": []
   },
   "OssIndex": {
     "Enabled": true,
@@ -78,11 +78,11 @@
   </li>
   <li><h4>IgnoredCvEs</h4>
     <p>A list of CVE's to ignore when scanning</p></li>
-  <li><h4>WhiteListedPackages</h4>
-    <p>This will be phased out once the industry settles on a new name for whitelists</p>
+  <li><h4><del>WhiteListed</del>&nbsp;<ins>Allowed</ins>&nbsp;Packages</h4>
+    <p>This was changed following a trend in the industry to avoid potentially offensive or excluding language</p>
     <p>Will cause errors for any package not in this list. If a version is provided, only that version will be permitted.</p></li>
-  <li><h4>BlackListedPackages</h4>
-    <p>This will be phased out once the industry settles on a new name for whitelists</p>
+  <li><h4><del>BlackListed</del>&nbsp;<ins>Blocked</ins>&nbsp;Packages</h4>
+    <p>This was changed following a trend in the industry to avoid potentially offensive or excluding language</p>
     <p>Will cause errors for any package in this list. If a version is provided, only that version will be disallowed.</p>
     <h5>CustomErrorMessage</h5>
     <p>Error text to use when a package in the list is found.</p>
