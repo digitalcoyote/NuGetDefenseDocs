@@ -19,29 +19,43 @@
 <code class="language-json">
 {
   "WarnOnly": false,
+  "VulnerabilityReports": {
+    "JsonReportPath": "./NuGetDefense.json"
+  },
+  "Logs": [
+    {
+      "OutPut": "./logs/{project}.NuGetDefense.log",
+      "LogLevel": "Information",
+      "RollingInterval": "Infinite"
+    },
+    {
+      "OutPut": "{project}.NuGetDefense.log",
+      "LogLevel": "Verbose",
+      "RollingInterval": "Day"
+    }
+  ],
+  "CheckTransitiveDependencies": true,
   "ErrorSettings": {
     "ErrorSeverityThreshold": 5,
-    "CVSS3Threshold": -1,
+    "Cvss3Threshold": -1,
     "IgnoredPackages": [
       {
-        "Id": "NugetDefense",
-        "Version": null,
-        "PackageUrl": "pkg:nuget/NugetDefense@@"
+        "Id": "NugetDefense"
       }
     ],
     "IgnoredCvEs": [],
     "AllowedPackages": [],
-    "BlockedPackages": []
+    "BlockedPackages": [],
   },
   "OssIndex": {
     "Enabled": true,
-    "BreakIfCannotRun": false
+    "BreakIfCannotRun": true
   },
   "NVD": {
     "SelfUpdate": false,
     "TimeoutInSeconds": 15,
     "Enabled": true,
-    "BreakIfCannotRun": false
+    "BreakIfCannotRun": true
   }
 }
 </code>
@@ -51,6 +65,33 @@
 
 <h3>WarnOnly</h3>
 <p>When <code>true</code> creates <span class="oi oi-warning"></span>Warnings instead of <span class="oi oi-circle-x"></span>Errors in the IDE</p>
+<h3>VulnerabilityReports</h3>
+<ul>
+  <li><h4>JsonReportPath</h4> Toggles an json report of the Vulnerabilities by providing a path to the destination.</li>
+  <li><h4>XmlReportPath</h4> Toggles an xml report of the Vulnerabilities by providing a path to the destination.</li>
+  <li><h4>OutputTextReport</h4> Boolean (True/False) that toggles outpput of a text report to the log files. Requires Information (or a mopre verbose setting) to ouput.</li>
+</ul>
+<h3>Log and Logs  (Serilog)</h3>
+<p><b>Log</b> - Allows defining behavior used to log to a single file</p>
+<p><b>Logs</b> - Allows defining behaviors used to different files</p>
+<ul>
+  <li><h4>OutPut</h4> Path to log to. Will Replace `{project}` with the project file name</li>
+  <li><h4>LogLevel</h4> Verbosity level to use when logging.
+    <ul>
+      <li>Verbose - Anything and everything you might want to know.</li>
+      <li>Debug - Information that may help to diagnose issues.</li>
+      <li>Information - Essential Information about what is being checkd and how.</li>
+      <li>Warning - Anything that went wrong but is not alarming. This includes expected failures.</li>
+      <li>Error - Information about anything that went wrong and needs attention.</li>
+      <li>Fatal - Information about errors that compromised the ability to scan, or the integrity of the scan</li>
+    </ul></li>
+</ul>
+<h3>CheckTransitiveDependencies</h3>
+<p>Toggles scanning of the dependencies of referenced NuGet packages.</p>
+<ul>
+  <li>"Sdk style" projects utilize this feature to scan for pacakges based on the dependencies dotnet calculates for the specified runtime.</li>
+  <li>Legacy .Net applications using the old project format will throw a warning as all dependencies should be listed in hte packages.config file.</li>
+</ul>
 <h3>ErrorSettings</h3>
 <ul>
   <li><h4>ErrorSeverityThreshold: Minimum <a href="https://nvd.nist.gov/vuln-metrics/cvss" target="_blank">CVSS 3.0</a>-based error severity ,</h4>
@@ -98,9 +139,6 @@
   <li><h4>BreakIfCannotRun</h4>
     <p>Emits an Error if an exception is encountered while trying to scan for vulnerabilities</p>
   </li>
-  <li><h4>Authentication</h4>
-    <p>Coming Soon!</p>
-  </li>
 </ul>
 
 <h3>NVD</h3>
@@ -119,6 +157,3 @@
     <p>Timeout used to retrieve NVD Data Source (Default: 15 Seconds)</p>
   </li>
 </ul>
-
-<h3>Scan Transitive Dependencies</h3>
-<p>Coming Soon!</p>
