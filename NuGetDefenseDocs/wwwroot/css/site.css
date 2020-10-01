@@ -35,6 +35,9 @@ app {
 
     .sidebar .navbar-brand {
         font-size: 1.3rem;
+        max-height: 120%;
+        max-width: 100%;
+        margin: auto;
     }
 
     .sidebar .oi {
