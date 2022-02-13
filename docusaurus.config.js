@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'NuGetDefense',
   tagline: 'Making Safer Software Together',
-  url: 'https://digitalcoyote.github.io/',
+  url: 'https://digitalcoyote.github.io/NuGetDefense/',
   baseUrl: '/NuGetDefense/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -24,7 +24,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/digitalcoyote/NuGetDefenseDocs/tree/master/docs',
         },
         blog: false,
         theme: {

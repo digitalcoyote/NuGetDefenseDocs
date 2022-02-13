@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b76170b-fb83-4d09-a76e-e7b06093efe6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/cli-reference.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/getting-started.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/getting-started.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docusaurus.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/docusaurus.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cli-reference.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cli-reference.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1644285063915</updated>
       <workItem from="1644285065653" duration="8550000" />
-      <workItem from="1644463086018" duration="6296000" />
+      <workItem from="1644463086018" duration="7977000" />
     </task>
     <servers />
   </component>
