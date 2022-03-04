@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'NuGetDefense',
   tagline: 'Making Safer Software Together',
-  url: 'https://digitalcoyote.github.io/NuGetDefense/',
+  url: 'https://digitalcoyote.github.io/',
   baseUrl: '/NuGetDefense/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
