@@ -5,50 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b76170b-fb83-4d09-a76e-e7b06093efe6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@babel-runtime-corejs3-npm-7.17.2-ea12d12360-fc7ba26191.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-core-npm-2.0.0-beta.17-aaa4ede5fb-bdfcfcf59b.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-cssnano-preset-npm-2.0.0-beta.17-0a6181611a-8d1684deb1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-logger-npm-2.0.0-beta.17-ef90b7fa31-4a6ed591b7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-mdx-loader-npm-2.0.0-beta.17-72fe2f2bab-252429e97d.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-module-type-aliases-npm-2.0.0-beta.17-2281bb5a58-4d876ce668.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-blog-npm-2.0.0-beta.17-287756cc04-c6a1baf5cc.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-docs-npm-2.0.0-beta.17-a9367f09db-15c30d9613.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-pages-npm-2.0.0-beta.17-8ef3920e78-4e9066ac62.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-debug-npm-2.0.0-beta.17-1b2922741d-f4a8a17156.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-analytics-npm-2.0.0-beta.17-f7520c27ab-75d58117e7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-gtag-npm-2.0.0-beta.17-56ab06c246-8dee79576f.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-sitemap-npm-2.0.0-beta.17-2b973d232a-507fa24f8a.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-preset-classic-npm-2.0.0-beta.17-2a11c6e53d-e3f3131052.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-classic-npm-2.0.0-beta.17-10c688a3f2-ef612eacc6.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-common-npm-2.0.0-beta.17-e1f219c0b4-34689e4a9a.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-search-algolia-npm-2.0.0-beta.17-609067fadc-8a603d743a.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-translations-npm-2.0.0-beta.17-d7488e7653-d08f957836.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-types-npm-2.0.0-beta.17-cbc0e0fec8-496a2a90cc.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-common-npm-2.0.0-beta.17-fc724045e2-51d0978cd6.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-npm-2.0.0-beta.17-040c546d6a-0168933ae0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-validation-npm-2.0.0-beta.17-eaa81b3496-cba1959210.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@slorber-static-site-generator-webpack-plugin-npm-4.0.1-c5e421ac55-6ddf70513c.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@tsconfig-docusaurus-npm-1.0.4-d62f751eda-720ca04baa.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/algoliasearch-helper-npm-3.7.0-1e0b4c6909-34afebf5aa.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/babel-loader-npm-8.2.3-855681b984-78e1e1a919.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/css-loader-npm-6.6.0-224a6d8db5-cc4117320c.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/cssnano-preset-advanced-npm-5.2.1-298e925c00-3921cfb34e.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/eval-npm-0.1.6-be51e0f222-0e9246bb16.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/infima-npm-0.2.0-alpha.37-08a3e0d5d3-e62695838b.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/json5-npm-1.0.1-647fc8794b-e76ea23dbb.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/loader-utils-npm-1.4.0-a56254a277-d150b15e7a.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-merge-idents-npm-5.1.0-8044da4041-4b5c356ba1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/postcss-reduce-idents-npm-5.1.0-ed8e6790e2-b40ef12cb2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/punycode-npm-1.3.2-3727a84cea-b8807fd594.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/querystring-npm-0.2.0-421b870c92-8258d6734f.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/querystring-npm-0.2.1-15cb60859d-7b83b45d64.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/typescript-npm-4.6.2-1d0ebc9cf1-8a44ed7e6f.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/typescript-patch-c02f09770a-efb83260a2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/url-npm-0.11.0-32ce15acfb-50d100d3dd.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/webpack-npm-5.70.0-5fea152450-00439884a9.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/API Reference/NuGetDefense.Lib.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/API Reference/NuGetDefense.Lib.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cli-reference.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cli-reference.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
