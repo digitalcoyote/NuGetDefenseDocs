@@ -6,8 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6b76170b-fb83-4d09-a76e-e7b06093efe6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/API Reference/NuGetDefense.Lib.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/API Reference/NuGetDefense.Lib.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cli-reference.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cli-reference.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/react-dom-npm-17.0.2-f551215af1-1c1eaa3bca.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/scheduler-npm-0.20.2-90beaecfba-c4b35cf967.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +36,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/codingcoyote/Code/NuGetDefenseDocs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/codingcoyote/Downloads/new_ui_preview.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/codingcoyote/Code/NuGetDefenseDocs/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/API Reference" />
       <recent name="$PROJECT_DIR$/static/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -61,6 +67,13 @@
       <workItem from="1644285065653" duration="8550000" />
       <workItem from="1644463086018" duration="16884000" />
       <workItem from="1646353925910" duration="800000" />
+      <workItem from="1650929980146" duration="6483000" />
+      <workItem from="1653585879955" duration="264000" />
+      <workItem from="1654095676518" duration="39000" />
+      <workItem from="1654095720782" duration="1147000" />
+      <workItem from="1654105694552" duration="635000" />
+      <workItem from="1654978983991" duration="154000" />
+      <workItem from="1661900768125" duration="2586000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some minor errors">
       <created>1644785937094</created>
