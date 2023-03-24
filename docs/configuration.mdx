@@ -4,12 +4,12 @@ sidebar_position: 3
 ---
 
 :::caution
-This documentation is a WIP and gives only a brief explanation of ehat each field in the nugetdefense.json file does and what values they accept.
+This documentation is a WIP and gives only a brief explanation of what each field in the NuGetDefense.json configuration file does and what values they accept.
 :::
 
 # Configuring NuGetDefense
 
-NuGetDefense can run without any prior configuration. On the first run, it will generate a config file with the defaults used when no configuration is found.
+NuGetDefense can run without any prior configuration. On the first run, it will generate a config file in the [AppData Special Folder](https://learn.microsoft.com/en-us/dotnet/api/system.environment.specialfolder) with the defaults used when no configuration is found. For more control over specific projects and solutions, you can add a NuGetDefense.json config file to the directory with your project or solution file and it will be used instead.
 
 ```json title="NuGetDefense.json"
 {
@@ -247,3 +247,5 @@ ex.
 
    ## CacheLocation
    Path for the local cache for previously reported known vulnerabilities.
+
+   Defaults to: /path/to/SpecialFolder/ApplicationData/.nugetdefense/NugetDefense.sqlite

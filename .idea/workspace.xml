@@ -5,10 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b76170b-fb83-4d09-a76e-e7b06093efe6" name="Changes" comment="Bump dependencies">
-      <change afterPath="$PROJECT_DIR$/docs/configuration.mdx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/cli-reference.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cli-reference.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-core-npm-2.3.1-65669b1c25-812aecae45.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-cssnano-preset-npm-2.3.1-b3c4a79f4d-a3d00ce86b.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-logger-npm-2.3.1-5af52a9cce-eff5f258ae.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-mdx-loader-npm-2.3.1-7579ea1753-4a1c9ef0e8.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-module-type-aliases-npm-2.3.1-e430787284-74f799f814.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-blog-npm-2.3.1-407f984c22-abc668ceab.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-docs-npm-2.3.1-5b2f123b1b-bcf8d92140.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-pages-npm-2.3.1-8e51c9d64f-8543050ed7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-debug-npm-2.3.1-736678349e-e660575f90.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-analytics-npm-2.3.1-c05cd1a336-9306ae89cd.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-gtag-npm-2.3.1-5bc01deff7-494f0405d7.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-tag-manager-npm-2.3.1-60d4a16594-d0b2ccc212.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-sitemap-npm-2.3.1-cfebe2494e-667d2abbf4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-preset-classic-npm-2.3.1-e8f262eda6-e4128a1bcb.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-classic-npm-2.3.1-dca89fd731-273812924f.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-common-npm-2.3.1-e7d7990fc7-6b902e9e78.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-search-algolia-npm-2.3.1-ff3066aafb-965303068e.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-translations-npm-2.3.1-00258579db-dd3796be63.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-types-npm-2.3.1-662d981ca7-91e52f37b9.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-common-npm-2.3.1-7713a41578-405dc5b8ab.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-npm-2.3.1-a805576f37-e8bce9bbd9.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-validation-npm-2.3.1-e7dd56e399-1e5529d1d0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/@tsconfig-docusaurus-npm-1.0.6-d84eda543a-fb0d7965c0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/cache/infima-npm-0.2.0-alpha.42-6e892ed9a6-7206f36639.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/configuration.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/configuration.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +103,7 @@
       <workItem from="1661900768125" duration="2586000" />
       <workItem from="1677285368318" duration="2027000" />
       <workItem from="1678063625153" duration="7137000" />
+      <workItem from="1679621914820" duration="1633000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some minor errors">
       <created>1644785937094</created>
