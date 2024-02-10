@@ -6,34 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b76170b-fb83-4d09-a76e-e7b06093efe6" name="Changes" comment="Bump dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-core-npm-2.3.1-65669b1c25-812aecae45.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-cssnano-preset-npm-2.3.1-b3c4a79f4d-a3d00ce86b.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-logger-npm-2.3.1-5af52a9cce-eff5f258ae.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-mdx-loader-npm-2.3.1-7579ea1753-4a1c9ef0e8.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-module-type-aliases-npm-2.3.1-e430787284-74f799f814.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-blog-npm-2.3.1-407f984c22-abc668ceab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-docs-npm-2.3.1-5b2f123b1b-bcf8d92140.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-content-pages-npm-2.3.1-8e51c9d64f-8543050ed7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-debug-npm-2.3.1-736678349e-e660575f90.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-analytics-npm-2.3.1-c05cd1a336-9306ae89cd.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-gtag-npm-2.3.1-5bc01deff7-494f0405d7.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-google-tag-manager-npm-2.3.1-60d4a16594-d0b2ccc212.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-plugin-sitemap-npm-2.3.1-cfebe2494e-667d2abbf4.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-preset-classic-npm-2.3.1-e8f262eda6-e4128a1bcb.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-classic-npm-2.3.1-dca89fd731-273812924f.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-common-npm-2.3.1-e7d7990fc7-6b902e9e78.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-search-algolia-npm-2.3.1-ff3066aafb-965303068e.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-theme-translations-npm-2.3.1-00258579db-dd3796be63.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-types-npm-2.3.1-662d981ca7-91e52f37b9.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-common-npm-2.3.1-7713a41578-405dc5b8ab.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-npm-2.3.1-a805576f37-e8bce9bbd9.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@docusaurus-utils-validation-npm-2.3.1-e7dd56e399-1e5529d1d0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/@tsconfig-docusaurus-npm-1.0.6-d84eda543a-fb0d7965c0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/cache/infima-npm-0.2.0-alpha.42-6e892ed9a6-7206f36639.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.yarn/install-state.gz" beforeDir="false" afterPath="$PROJECT_DIR$/.yarn/install-state.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/configuration.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/configuration.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/getting-started.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/getting-started.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,29 +24,40 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="24o7PbT5iC9VFVrFWxXshM7OHnX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/codingcoyote/Downloads/new_ui_preview.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/codingcoyote/WebstormProjects/NuGetDefenseDocs/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/codingcoyote/Downloads/new_ui_preview.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "",
+    "nodejs_package_manager_path": "yarn",
+    "npm.dedupe --strategy=highest.executor": "Run",
+    "npm.run upgrade-interactive.executor": "Run",
+    "npm.start upgrade-interactive.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/codingcoyote/WebstormProjects/NuGetDefenseDocs/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/API Reference" />
@@ -82,6 +66,16 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/../nugetdefense-docs" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="dedupe --strategy=highest" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="dedupe" />
+      <arguments value="--strategy=highest" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -156,6 +150,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Fix some minor errors" />
     <MESSAGE value="Bump dependencies" />
     <option name="LAST_COMMIT_MESSAGE" value="Bump dependencies" />

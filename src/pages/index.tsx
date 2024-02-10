@@ -29,7 +29,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`HOfficial Documentation for  ${siteConfig.title}`}>
+      title={`Official Documentation for  ${siteConfig.title}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
