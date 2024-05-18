@@ -51,6 +51,11 @@ NuGetDefense can run without any prior configuration. On the first run, it will 
     "Enabled": true,
     "BreakIfCannotRun": true
   },
+  "NvdApi": {
+    "ApiToken": "",
+    "Enabled": true,
+    "BreakIfCannotRun": true
+  },
   "SensitivePackages": []
 }
 
@@ -191,7 +196,7 @@ ex.
 ]
  ```
 
- ## OssIndex / GitHubAdvisoryDatabase
+ ## OssIndex / GitHubAdvisoryDatabase / NvdApi
  OSSIndex and GitHubAdvisoryDatabase are remote vulnerability sources and information about your packages must be sent up to their servers to gather information about the known vulnerabilities for them. They share teh same configuration settings. In general it's advisable to setup an account to access remote vulnerability services. GitHubAdvisoryDatabase does not work without one, but rewuires NO permissions. OSSindex provides more useful info with an account.
 
  Value|Description
