@@ -108,10 +108,13 @@ Absolute or relative path to the file used for caching remote vulnerability scan
 
 ## Update
 :::info
-This command needs documentation still
+`nugetdefense Update` Updates the Offline NVD Vulnerability source (by default using the global location)
+:::
+:::tip
+This is intended to be used in CI environments to update the vulnerability data periodically and reduce the number of calls made to NVD's API
 :::
 
 ## Recreate-NVD
 :::info
-This command needs documentation still
+`nugetdefense Recreate-NVD` Recreates the Offline NVD Vulnerability source (by default in the global location)
 :::

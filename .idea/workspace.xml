@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6b76170b-fb83-4d09-a76e-e7b06093efe6" name="Changes" comment="Bump dependencies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/configuration.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/configuration.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/cli-reference.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/docs/cli-reference.mdx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +21,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LLMProjectSettings">
+    <option name="aiignore_manually_set" value="true" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="24o7PbT5iC9VFVrFWxXshM7OHnX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -77,6 +83,13 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-cb551a44b0f8-JavaScript-WS-242.10180.31" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -98,6 +111,7 @@
       <workItem from="1677285368318" duration="2027000" />
       <workItem from="1678063625153" duration="7137000" />
       <workItem from="1679621914820" duration="1633000" />
+      <workItem from="1716344416851" duration="303000" />
     </task>
     <task id="LOCAL-00001" summary="Fix some minor errors">
       <created>1644785937094</created>
